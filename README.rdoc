@@ -1,5 +1,6 @@
-Just my current dotfiles... exciting, eh?
+Forked from the great https://github.com/jqr/dotfiles
 
+With a few minor tweaks by me, probably more as I go along and learn more about customizing these things.
 
 Symlink all the dotfiles into the appropriate locations:
 
