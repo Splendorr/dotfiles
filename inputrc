@@ -1,4 +1,10 @@
-# http://codeinthehole.com/archives/17-The-most-important-command-line-tip-incremental-history-searching-with-.inputrc.html
+# jqr referenced this: http://codeinthehole.com/archives/17-The-most-important-command-line-tip-incremental-history-searching-with-.inputrc.html
+
+# and Splendorr references Jason Seifer's post install guide here, to add tab suggestions of all possible completions, and to add case insensitivity to tab auto-completion: http://jasonseifer.com/2010/05/05/osx-post-install-guide-4
+
+set show-all-if-ambiguous On
+set completion-ignore-case on
+"\ep": history-search-backward
 "\e[A": history-search-backward
 "\e[B": history-search-forward
 "\e[C": forward-char
