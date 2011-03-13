@@ -5,3 +5,8 @@ With a few minor tweaks by me, probably more as I go along and learn more about 
 Symlink all the dotfiles into the appropriate locations:
 
   rake install
+  
+Other things I do when I set up a Mac for the first time:
+
+1. 
+2. Install homebrew http://mxcl.github.com/homebrew/
