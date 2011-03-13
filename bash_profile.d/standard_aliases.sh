@@ -8,6 +8,10 @@ alias la='ls -lA'
 alias du='du -hc'
 alias more='less'
 
+# Introduce git to github https://github.com/defunkt/hub
+# brew install hub
+alias git=hub
+
 alias lc='wc -l'
 
 export CLICOLOR=1
