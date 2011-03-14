@@ -20,7 +20,7 @@ Other things I do when I set up a Mac for the first time:
 	ruby -e "$(curl -fsSLk https://gist.github.com/raw/323731/install_homebrew.rb)"
 2. Install git with:
 	brew install git
-3. Install the "hub" git wrapper:
+3. Install the "hub" git wrapper courtesy of https://github.com/defunkt/hub:
 	brew install hub
 4. Install RVM (including post-install instructions, but the dotfiles already include the RVM setup line (I think!)):
 	bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
