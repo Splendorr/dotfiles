@@ -10,6 +10,20 @@ Apparently, once you've run rake install, any changes you make to the files in t
 
 Other things I do when I set up a Mac for the first time:
 
+0. Install most recent Xcode.
+1. Install these dotfiles
+	cd ~/path/to/clone/to/
+	git clone https://Splendorr@github.com/Splendorr/dotfiles.git
+	cd dotfiles
+	rake install
 1. Install homebrew http://mxcl.github.com/homebrew/
-2. Install git with 
+	ruby -e "$(curl -fsSLk https://gist.github.com/raw/323731/install_homebrew.rb)"
+2. Install git with:
 	brew install git
+3. Install the "hub" git wrapper:
+	brew install hub
+4. Install RVM (including post-install instructions, but the dotfiles already include the RVM setup line (I think!)):
+	bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+	rvm notes
+	rvm install 1.9.2
+	rvm use 1.9.2 --default
