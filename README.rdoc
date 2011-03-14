@@ -6,7 +6,10 @@ Symlink all the dotfiles into the appropriate locations:
 
   rake install
   
+Apparently, once you've run rake install, any changes you make to the files in the original, git repository location will automatically be loaded in any new Terminal window. Symlinked. Cool.
+
 Other things I do when I set up a Mac for the first time:
 
-1. 
-2. Install homebrew http://mxcl.github.com/homebrew/
+1. Install homebrew http://mxcl.github.com/homebrew/
+2. Install git with 
+	brew install git
