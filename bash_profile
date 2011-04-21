@@ -2,9 +2,9 @@ for a in `ls $HOME/.bash_profile.d/*.sh`; do
   source $a
 done
 
-export VISUAL='mate -w'
+export VISUAL='nano -w'
 export EDITOR=$VISUAL
-export GIT_EDITOR='mate -wl1'
+export GIT_EDITOR='nano -wl1'
 
 export PATH=~/bin:~/.gem/ruby/1.8/bin:~/.seeds/bin:$PATH
 
